@@ -1,6 +1,6 @@
 {
   "name": "workshop_2",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Working with package.json, dependencies, environment variables, semantic versioning, basic TypeScript features (type, interface, class).",
   "license": "ISC",
   "author": "Mykyta Lapin",
