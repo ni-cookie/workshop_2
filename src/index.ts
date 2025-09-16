@@ -25,7 +25,9 @@ export function formatNumber(value: number, options?: NumberFormatOptions): stri
 
 export type LogLevel = 'silent' | 'info' | 'debug';
 export class Logger {
-  constructor(private level: LogLevel) {}
+  constructor(private level: LogLevel) {
+    void level;
+  } // eslint не буде лаятися
 
   info(msg: string): void {
     if (this.level !== 'silent') {
