@@ -4,7 +4,7 @@
   "description": "Working with package.json, dependencies, environment variables, semantic versioning, basic TypeScript features (type, interface, class).",
   "license": "ISC",
   "author": "Mykyta Lapin",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
