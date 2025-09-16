@@ -5,9 +5,10 @@
 ## Інструкції з запуску
 
 1. Встановити залежності:
+
 ```bash
 npm install
-````
+```
 
 2. Запустити демо:
 
@@ -24,8 +25,6 @@ format(ok): 123.456
 [INFO] Application started
 [DEBUG] Extra debug info
 ```
-
-
 
 3. Зібрати бібліотеку:
 
@@ -50,7 +49,6 @@ DTS ⚡️ Build success in 606ms
 DTS dist/index.d.cts 532.00 B
 DTS dist/index.d.ts  532.00 B
 ```
-
 
 ## Еволюція бібліотеки
 
@@ -80,7 +78,7 @@ console.log(formatNumber(123.456, { precision: 2 })); // "123.46"
 
 // Logger
 const logger = new Logger('debug');
-logger.info('This is info');   // [INFO] This is info
+logger.info('This is info'); // [INFO] This is info
 logger.debug('Debug message'); // [DEBUG] Debug message
 ```
 
@@ -97,11 +95,10 @@ LOG_LEVEL=debug
 
 ## Релізи
 
-* [v0.1.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.1.0)
-* [v0.2.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.2.0)
-* [v0.3.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.3.0)
-* [v0.4.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.4.0)
-* [v0.5.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.5.0)
-* [v1.0.0](https://github.com/ni-cookie/workshop_2/releases/tag/v1.0.0)
-* [v2.0.0](https://github.com/ni-cookie/workshop_2/releases/tag/v2.0.0)
-
+- [v0.1.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.1.0)
+- [v0.2.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.2.0)
+- [v0.3.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.3.0)
+- [v0.4.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.4.0)
+- [v0.5.0](https://github.com/ni-cookie/workshop_2/releases/tag/v0.5.0)
+- [v1.0.0](https://github.com/ni-cookie/workshop_2/releases/tag/v1.0.0)
+- [v2.0.0](https://github.com/ni-cookie/workshop_2/releases/tag/v2.0.0)
